@@ -84,6 +84,7 @@ export default function guia2() {
 
   useEffect(() => {
     //Verifica si existe el punto de control actual
+    console.log("Valor de idisaac:", id);
     setExisteSigPunto(isNotNull(punto));
   }, [punto]);
 
